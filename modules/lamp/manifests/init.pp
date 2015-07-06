@@ -1,6 +1,5 @@
 class lamp {
-	package { 
-		['apache2',
+	package { [ 'apache2',
 		'mysql-server',
 		'php5-mysql'
 		'php5', 
