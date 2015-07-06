@@ -3,4 +3,5 @@ node 'www1-gp' {
         content => "Hello, world\n",
         }
         include puppet # this deas puppet apply
+	include lamp # apache mysql and php
 }
