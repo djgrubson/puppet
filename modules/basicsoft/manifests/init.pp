@@ -1,5 +1,5 @@
 class basicsoft {
-        package { [ 'vim','htop', 'net-snmp', 'net-snmp-utils'] : 
+        package { [ 'vim','htop', 'snmpd'] : 
 	ensure  => installed,
 	}
 }
